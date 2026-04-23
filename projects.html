@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+     <title>Projects page </title>
+     <link rel="stylesheet" href="styles.css">
+  </head>
+ 
+ <body id="top">
+     <header> 
+         Sarah's Website
+         <nav role="navigation" aria-label="Main navigation"> 
+            <a href="index.html">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+         </nav>
+    </header>
+     <main role="main">
+     <h1>Sarah Aljuhani's Projects</h1>
+       <article class=projectarticle>
+          <h2>Lost Pet System Design</h2>
+          <button  onclick="projectButton('description1')"> Show / Hide Description</button>
+          <p id="description1">This project focused on designing a lost pet system for an application that allows users to report their lost pets and trade resources to reduce waste. This project focused on system architecture and design to support efficient user interaction.</p>
+           <time datetime="2025-05">May 2025</time>
+          <figure>
+             <img src="images/pet.jpeg" alt="a paw of a dog">
+             <figcaption>Lost Pet System Logo</figcaption>
+          </figure>
+          <p>
+             <a href="https://github.com/Sarah0044/Projects/tree/main/lost-pet-system">
+             Read More About This Project Here! </a>
+           </p>
+       </article>
+         <article class=projectarticle>
+          <h2>‘Blanca’ Restaurant Database System</h2>
+           <button  id="projectButton2" onclick="projectButton('description2')"> Show / Hide Description</button>
+          <p id="description2">This project focused on developing a restaurant database system that integrates a graphical user interface to deliver a simple, user-friendly experience while supporting essential restaurant management features.</p>
+           <time datetime="2024-12">December 2024</time>
+          <figure>
+             <img src="images/db.png" alt="database system">
+             <figcaption>Database Logo</figcaption>
+          </figure>
+          <p>
+             <a href="https://github.com/Sarah0044/Projects/tree/main/restaurant-db">
+             Read More About This Project Here! </a>
+           </p>
+       </article>
+         <article class=projectarticle>
+          <h2>Multimodal Fake News Detection Across Text and Visual Modalities</h2>
+           <button   id="projectButton3" onclick="projectButton('description3')"> Show / Hide Description</button>
+          <p id="description3">This project aims to detect fake news through both image and text data, allowing for more accurate classification by jointly analyzing visual and linguistic cues present in online news content.</p>
+           <time datetime="2026-06">June 2026</time>
+          <figure>
+             <img src="images/gp.png" alt="graduation project">
+             <figcaption>Multimodal Fake News Detection Logo</figcaption>
+          </figure>
+            <p>
+             <a href="https://github.com/Sarah0044/Projects/tree/main/Multimodalfake-news-detection">
+             Read More About This Project Here! </a>
+           </p>
+       </article>
+    </main>
+     <footer role="contentinfo">
+        <p>Sarah Aljuhani's Website</p>
+        <a href="#top">Back to Top</a>
+     </footer>
+  <script src="scripts.js"> </script>
+
+ </body>
+
+</html>
